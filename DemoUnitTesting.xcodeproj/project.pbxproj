@@ -14,6 +14,11 @@
 		2D402BEC1B11BAA900353B2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D402BEB1B11BAA900353B2F /* Images.xcassets */; };
 		2D402BEF1B11BAA900353B2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D402BED1B11BAA900353B2F /* LaunchScreen.xib */; };
 		2D402BFB1B11BAA900353B2F /* DemoUnitTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D402BFA1B11BAA900353B2F /* DemoUnitTestingTests.m */; };
+		2D402C0C1B11BB0B00353B2F /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D402C071B11BB0B00353B2F /* ClassA.m */; };
+		2D402C0D1B11BB0B00353B2F /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D402C091B11BB0B00353B2F /* ClassB.m */; };
+		2D402C0E1B11BB0B00353B2F /* DemoOCMockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D402C0A1B11BB0B00353B2F /* DemoOCMockTest.m */; };
+		2D402C0F1B11BB1000353B2F /* AppDelegateForTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D402C051B11BB0B00353B2F /* AppDelegateForTest.m */; };
+		3B9F14987E18212744FB1A31 /* libPods-DemoUnitTestingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4436A195FF98D56870FDC749 /* libPods-DemoUnitTestingTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		2D402BF41B11BAA900353B2F /* DemoUnitTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUnitTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D402BF91B11BAA900353B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D402BFA1B11BAA900353B2F /* DemoUnitTestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUnitTestingTests.m; sourceTree = "<group>"; };
+		2D402C041B11BB0B00353B2F /* AppDelegateForTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateForTest.h; sourceTree = "<group>"; };
+		2D402C051B11BB0B00353B2F /* AppDelegateForTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateForTest.m; sourceTree = "<group>"; };
+		2D402C061B11BB0B00353B2F /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		2D402C071B11BB0B00353B2F /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		2D402C081B11BB0B00353B2F /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		2D402C091B11BB0B00353B2F /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		2D402C0A1B11BB0B00353B2F /* DemoOCMockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoOCMockTest.m; sourceTree = "<group>"; };
+		4436A195FF98D56870FDC749 /* libPods-DemoUnitTestingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoUnitTestingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		747579B2AEB392E3486D5BCE /* Pods-DemoUnitTestingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoUnitTestingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoUnitTestingTests/Pods-DemoUnitTestingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBE603BDE96216DA31577370 /* Pods-DemoUnitTestingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoUnitTestingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoUnitTestingTests/Pods-DemoUnitTestingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9F14987E18212744FB1A31 /* libPods-DemoUnitTestingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,8 @@
 				2D402BDD1B11BAA900353B2F /* DemoUnitTesting */,
 				2D402BF71B11BAA900353B2F /* DemoUnitTestingTests */,
 				2D402BDC1B11BAA900353B2F /* Products */,
+				F19CC1674ACEB0BC4AE61BAD /* Pods */,
+				91B3E645C0C0CE625020684F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +123,13 @@
 		2D402BF71B11BAA900353B2F /* DemoUnitTestingTests */ = {
 			isa = PBXGroup;
 			children = (
+				2D402C041B11BB0B00353B2F /* AppDelegateForTest.h */,
+				2D402C051B11BB0B00353B2F /* AppDelegateForTest.m */,
+				2D402C061B11BB0B00353B2F /* ClassA.h */,
+				2D402C071B11BB0B00353B2F /* ClassA.m */,
+				2D402C081B11BB0B00353B2F /* ClassB.h */,
+				2D402C091B11BB0B00353B2F /* ClassB.m */,
+				2D402C0A1B11BB0B00353B2F /* DemoOCMockTest.m */,
 				2D402BFA1B11BAA900353B2F /* DemoUnitTestingTests.m */,
 				2D402BF81B11BAA900353B2F /* Supporting Files */,
 			);
@@ -117,6 +142,23 @@
 				2D402BF91B11BAA900353B2F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91B3E645C0C0CE625020684F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4436A195FF98D56870FDC749 /* libPods-DemoUnitTestingTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F19CC1674ACEB0BC4AE61BAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				747579B2AEB392E3486D5BCE /* Pods-DemoUnitTestingTests.debug.xcconfig */,
+				FBE603BDE96216DA31577370 /* Pods-DemoUnitTestingTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D402C011B11BAA900353B2F /* Build configuration list for PBXNativeTarget "DemoUnitTestingTests" */;
 			buildPhases = (
+				5F75AA4CF81744E12F64A163 /* Check Pods Manifest.lock */,
 				2D402BF01B11BAA900353B2F /* Sources */,
 				2D402BF11B11BAA900353B2F /* Frameworks */,
 				2D402BF21B11BAA900353B2F /* Resources */,
+				1FEEBCA1B57E06C2ACF3B0D5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +207,7 @@
 		2D402BD31B11BAA900353B2F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AJ;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = ajjnix;
 				TargetAttributes = {
@@ -214,6 +259,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FEEBCA1B57E06C2ACF3B0D5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoUnitTestingTests/Pods-DemoUnitTestingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F75AA4CF81744E12F64A163 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D402BD71B11BAA900353B2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,6 +299,7 @@
 			files = (
 				2D402BE71B11BAA900353B2F /* ViewController.m in Sources */,
 				2D402BE41B11BAA900353B2F /* AppDelegate.m in Sources */,
+				2D402C0F1B11BB1000353B2F /* AppDelegateForTest.m in Sources */,
 				2D402BE11B11BAA900353B2F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D402C0C1B11BB0B00353B2F /* ClassA.m in Sources */,
+				2D402C0E1B11BB0B00353B2F /* DemoOCMockTest.m in Sources */,
 				2D402BFB1B11BAA900353B2F /* DemoUnitTestingTests.m in Sources */,
+				2D402C0D1B11BB0B00353B2F /* ClassB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +445,7 @@
 		};
 		2D402C021B11BAA900353B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747579B2AEB392E3486D5BCE /* Pods-DemoUnitTestingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -382,6 +465,7 @@
 		};
 		2D402C031B11BAA900353B2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE603BDE96216DA31577370 /* Pods-DemoUnitTestingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -414,6 +498,7 @@
 				2D402C001B11BAA900353B2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D402C011B11BAA900353B2F /* Build configuration list for PBXNativeTarget "DemoUnitTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +507,7 @@
 				2D402C031B11BAA900353B2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
